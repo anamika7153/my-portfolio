@@ -44,11 +44,11 @@ const Footer = () => {
           <img src={images.email} alt="email" />
           <a href="mailto:aanyayadav419@gmail.com" className="p-text">Click here to send me a mail</a>
         </div>
-        <div className="app__footer-card">
+        {/* <div className="app__footer-card">
           <img src={images.mobile} alt="phone" />
           <a href="tel:+91 8601337075" className="p-text">Contact Me!</a>
-          {/* <a href="https://api.whatsapp.com/send?phone=918601337075" className="p-text">Whatsapp Me!</a> */}
-        </div>
+          // <a href="https://api.whatsapp.com/send?phone=918601337075" className="p-text">Whatsapp Me!</a>
+        </div> */}
       </div>
       {!isFormSubmitted ? (
         <div className="app__footer-form app__flex">
