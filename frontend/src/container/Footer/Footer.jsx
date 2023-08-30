@@ -50,7 +50,7 @@ const Footer = () => {
           // <a href="https://api.whatsapp.com/send?phone=918601337075" className="p-text">Whatsapp Me!</a>
         </div> */}
       </div>
-      {!isFormSubmitted ? (
+      {/* {!isFormSubmitted ? (
         <div className="app__footer-form app__flex">
           <div className="app__flex">
             <input className="p-text" type="text" placeholder="Your Name" name="username" value={username} onChange={handleChangeInput} required/>
@@ -75,7 +75,7 @@ const Footer = () => {
             Thank you for getting in touch!
           </h3>
         </div>
-      )}
+      )} */}
     </>
   );
 };
